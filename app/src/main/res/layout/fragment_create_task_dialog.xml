@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle_bg_corner"
+    android:orientation="vertical"
+    android:paddingBottom="24dp"
+    android:elevation="8dp"
+    android:paddingHorizontal="51dp"
+    android:paddingTop="24dp"
+    tools:context=".dodo.CreateTaskDialog">
+
+    <EditText
+        android:id="@+id/editText"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/rectangle_bg"
+        android:layout_height="wrap_content"
+        android:hint="task" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingEnd="4dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rectangle_bg"
+            android:drawableEnd="@android:drawable/ic_menu_edit"
+            android:text="21/21.04" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:paddingEnd="4dp"
+            android:layout_weight="0.5 "
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_bg"
+            android:drawableEnd="@android:drawable/btn_star_big_on"
+            android:text="ну знаешь " />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:textColor="#FF0057"
+        android:background="@drawable/rectangle_bg"
+        android:text="я-устал"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
